@@ -27,7 +27,7 @@ from PIL import Image
 import torchvision.transforms as transforms
 
 # Load the image
-image = Image.open('ship.jpg') #give image path
+image = Image.open('.jpg') #give image path. ONLY JPG!
 
 # Define the transformation
 transform = transforms.Compose([
